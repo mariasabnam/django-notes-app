@@ -52,6 +52,7 @@ services:
     networks:
       - notes-app-nw
 
+
   web:
     image: "mariasabnam/notes-app:latest"
     ports:
